@@ -1,0 +1,166 @@
+html {
+	font: normal 28px/32px Helvetica, Arial, sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0 auto;
+	width: 684px;
+	padding: 0 15px;
+	border: 3px solid black;
+}
+
+h1 {
+	font-size: 3.28rem;
+	line-height: 3.3rem;
+}
+
+h2 {
+	font-weight: normal;
+}
+
+section:first-of-type {
+	border-bottom: 30px solid black;
+	padding-bottom: 5px;
+}
+
+section:nth-of-type(2) {
+	border-bottom: 15px solid black;
+}
+
+section:nth-of-type(2) td:nth-of-type(2) {
+	text-align: right;
+}
+
+section:nth-of-type(2) th {
+	padding: 9px 0;
+	border-bottom: 1px solid black;
+}
+
+section:nth-of-type(2) tr:nth-of-type(2) td{
+	padding: 4px 0 6px 0;
+}
+
+section:nth-of-type(3) thead th {
+	text-align: right;
+	padding-top: 12px;
+}
+
+section:nth-of-type(3) tr:nth-last-of-type(-n+4) {
+	border-top: 1px solid black;
+}
+
+section:nth-of-type(3) tr:nth-last-of-type(-n+4) td:last-child {
+	text-align: right;
+}
+
+section:nth-of-type(4) {
+	border-top: 1px solid black;
+	padding: 17px 0 23px 0;
+	font-size: 24px;
+}
+
+section:last-of-type {
+	font-size: 24px;
+}
+
+section:last-of-type tr:first-of-type {
+	border-bottom: 1px solid black;
+}
+
+th {
+	text-align: left;
+	border-top: 1px solid black;
+	/*padding: 0;*/
+	margin: 0;
+}
+
+th:last-child {
+	text-align: right;
+}
+
+th:only-child {
+	text-align: left;
+}
+
+/*tr *:nth-of-type(even) {
+	text-align: right;
+}*/
+
+tr > td + th {
+	padding: 0;
+	text-align: right;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*tr{
+	border-bottom: 1px solid black;
+}*/
+
+dl {
+	box-sizing: border-box;
+	display: block;
+}
+
+dt {
+	display: inline-block;
+}
+
+dd {
+	display: inline-block;
+	font-weight: normal;
+}
+
+section:nth-of-type(4) dt {
+	vertical-align: top;
+}
+
+section:nth-of-type(4) dd {
+	width: 97%;
+}
+
+table tbody tr:nth-last-of-type(5) {
+	border-bottom: 30px solid black;
+}
+
+span {
+	font-weight: normal;
+}
+
+.indent {
+	width: 35px;
+}
+
+td.indent + td dl {
+	border-top: 1px solid black;
+}
+
+td.indent + td {
+	padding: 0;
+}
+
+/*td {
+	border-top: 1px solid black;
+}*/
+
+section:last-of-type table tr {
+	border-bottom: none;
+}
+
+section:last-of-type {
+	padding-bottom: 20px;
+}
+section:nth-of-type(3) table tbody tr:nth-of-type(2),
+section:nth-of-type(3) table tbody tr:nth-of-type(3),
+section:nth-of-type(3) table tbody tr:nth-of-type(6),
+section:nth-of-type(3) table tbody tr:nth-of-type(7) {
+	border-bottom: none;
+}
